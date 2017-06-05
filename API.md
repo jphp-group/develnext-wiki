@@ -1,42 +1,42 @@
 # API
 
-> Реестр всех основных классов, описание их методов и свойств.
+> Р РµРµСЃС‚СЂ РІСЃРµС… РѕСЃРЅРѕРІРЅС‹С… РєР»Р°СЃСЃРѕРІ, РѕРїРёСЃР°РЅРёРµ РёС… РјРµС‚РѕРґРѕРІ Рё СЃРІРѕР№СЃС‚РІ.
 
 ---
 
-#### Как работать с документацией по API?
-> _Если вы хотите более эффективно понимать, что написано в этой документации, прочитайте небольшое описание [**здесь**](API_Manual). Особенно это будет полезно для тех, кто не знает английский язык, а английские слова встречаются в данной документации._
+#### РљР°Рє СЂР°Р±РѕС‚Р°С‚СЊ СЃ РґРѕРєСѓРјРµРЅС‚Р°С†РёРµР№ РїРѕ API?
+> _Р•СЃР»Рё РІС‹ С…РѕС‚РёС‚Рµ Р±РѕР»РµРµ СЌС„С„РµРєС‚РёРІРЅРѕ РїРѕРЅРёРјР°С‚СЊ, С‡С‚Рѕ РЅР°РїРёСЃР°РЅРѕ РІ СЌС‚РѕР№ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё, РїСЂРѕС‡РёС‚Р°Р№С‚Рµ РЅРµР±РѕР»СЊС€РѕРµ РѕРїРёСЃР°РЅРёРµ [**Р·РґРµСЃСЊ**](API_Manual). РћСЃРѕР±РµРЅРЅРѕ СЌС‚Рѕ Р±СѓРґРµС‚ РїРѕР»РµР·РЅРѕ РґР»СЏ С‚РµС…, РєС‚Рѕ РЅРµ Р·РЅР°РµС‚ Р°РЅРіР»РёР№СЃРєРёР№ СЏР·С‹Рє, Р° Р°РЅРіР»РёР№СЃРєРёРµ СЃР»РѕРІР° РІСЃС‚СЂРµС‡Р°СЋС‚СЃСЏ РІ РґР°РЅРЅРѕР№ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё._
 
 ---
 
 #### [PHP API](PHP-API)
-> Описание стандартных классов и функций в php и jphp.
+> РћРїРёСЃР°РЅРёРµ СЃС‚Р°РЅРґР°СЂС‚РЅС‹С… РєР»Р°СЃСЃРѕРІ Рё С„СѓРЅРєС†РёР№ РІ php Рё jphp.
 
-#### Системные
-- [UXList](UXList) - список значений.
-- [UXImage](UXImage) - изображение, картинка.
-- [UXColor](UXColor) - цвет.
-- [UXScreen](UXScreen) - экран пользователя.
-- [UXTooltip](UXTooltip) - всплывающая подсказка.
-- [UXFont](UXFont) - шрифт. 
-- [UXClipboard](UXClipboard) - работа с буфером обмена.
+#### РЎРёСЃС‚РµРјРЅС‹Рµ
+- [UXList](UXList) - СЃРїРёСЃРѕРє Р·РЅР°С‡РµРЅРёР№.
+- [UXImage](UXImage) - РёР·РѕР±СЂР°Р¶РµРЅРёРµ, РєР°СЂС‚РёРЅРєР°.
+- [UXColor](UXColor) - С†РІРµС‚.
+- [UXScreen](UXScreen) - СЌРєСЂР°РЅ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
+- [UXTooltip](UXTooltip) - РІСЃРїР»С‹РІР°СЋС‰Р°СЏ РїРѕРґСЃРєР°Р·РєР°.
+- [UXFont](UXFont) - С€СЂРёС„С‚. 
+- [UXClipboard](UXClipboard) - СЂР°Р±РѕС‚Р° СЃ Р±СѓС„РµСЂРѕРј РѕР±РјРµРЅР°.
 
-#### Вспомогательные
-- [Animation](Animation) - анимация для элементов интерфейса.
-- [Score](Score) - класс для реализации системы счета, в основном в играх.
-- [Geometry](Geometry) - класс для работы с примитивными геометрическими фигурами.
-- [Media](Media) - класс для работы с аудио и видео, для воспроизведения медиа-контента.
+#### Р’СЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Рµ
+- [Animation](Animation) - Р°РЅРёРјР°С†РёСЏ РґР»СЏ СЌР»РµРјРµРЅС‚РѕРІ РёРЅС‚РµСЂС„РµР№СЃР°.
+- [Score](Score) - РєР»Р°СЃСЃ РґР»СЏ СЂРµР°Р»РёР·Р°С†РёРё СЃРёСЃС‚РµРјС‹ СЃС‡РµС‚Р°, РІ РѕСЃРЅРѕРІРЅРѕРј РІ РёРіСЂР°С….
+- [Geometry](Geometry) - РєР»Р°СЃСЃ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РїСЂРёРјРёС‚РёРІРЅС‹РјРё РіРµРѕРјРµС‚СЂРёС‡РµСЃРєРёРјРё С„РёРіСѓСЂР°РјРё.
+- [Media](Media) - РєР»Р°СЃСЃ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ Р°СѓРґРёРѕ Рё РІРёРґРµРѕ, РґР»СЏ РІРѕСЃРїСЂРѕРёР·РІРµРґРµРЅРёСЏ РјРµРґРёР°-РєРѕРЅС‚РµРЅС‚Р°.
 
-#### GUI Компоненты
-- [UXNode](UXNode) - базовый класс всех gui компонентов.
+#### GUI РљРѕРјРїРѕРЅРµРЅС‚С‹
+- [UXNode](UXNode) - Р±Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РІСЃРµС… gui РєРѕРјРїРѕРЅРµРЅС‚РѕРІ.
  - [UXParent](UXParent) > [UXRegion](UXRegion) > [UXControl](UXControl)
-- [UXLabeled](UXLabeled) - текстовые компоненты с иконкой.
- - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22550186/fbd17720-e95f-11e6-8786-eb48ef061916.png> [UXButton](UXButton) - обычная кнопка.
- - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22552153/c51aa54a-e968-11e6-9157-4153014038fd.png> [UXFlatButton](UXFlatButton) - плоская кнопка.
- - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22553003/30707f10-e96c-11e6-8912-5b2195295490.png> [UXToggleButton](UXToggleButton) - кнопка-переключатель.
- - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22618547/46438f0a-eaf0-11e6-8e88-689f576cb5b6.png> [UXLabel](UXLabel) - текст.
- - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/23369179/8d17bd96-fd21-11e6-8115-54e6a64c63df.png> [UXHyperlink](UXHyperlink) - ссылка.
-- [UXTextInputControl](UXTextInputControl) - компоненты для ввода текста.
-- <img align=top src=https://cloud.githubusercontent.com/assets/1113915/23470109/9b7f01a0-feb6-11e6-8e6b-4b6915bc5214.png>  [UXTextField](UXTextField) - поле ввода.
-- <img src="https://cloud.githubusercontent.com/assets/1113915/22550060/51eff8da-e95f-11e6-938b-ea2deb34aa2b.png" align="top" /> [UXListView](UXListView) - список.
+- [UXLabeled](UXLabeled) - С‚РµРєСЃС‚РѕРІС‹Рµ РєРѕРјРїРѕРЅРµРЅС‚С‹ СЃ РёРєРѕРЅРєРѕР№.
+ - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22550186/fbd17720-e95f-11e6-8786-eb48ef061916.png> [UXButton](UXButton) - РѕР±С‹С‡РЅР°СЏ РєРЅРѕРїРєР°.
+ - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22552153/c51aa54a-e968-11e6-9157-4153014038fd.png> [UXFlatButton](UXFlatButton) - РїР»РѕСЃРєР°СЏ РєРЅРѕРїРєР°.
+ - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22553003/30707f10-e96c-11e6-8912-5b2195295490.png> [UXToggleButton](UXToggleButton) - РєРЅРѕРїРєР°-РїРµСЂРµРєР»СЋС‡Р°С‚РµР»СЊ.
+ - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/22618547/46438f0a-eaf0-11e6-8e88-689f576cb5b6.png> [UXLabel](UXLabel) - С‚РµРєСЃС‚.
+ - <img align=top src=https://cloud.githubusercontent.com/assets/1113915/23369179/8d17bd96-fd21-11e6-8115-54e6a64c63df.png> [UXHyperlink](UXHyperlink) - СЃСЃС‹Р»РєР°.
+- [UXTextInputControl](UXTextInputControl) - РєРѕРјРїРѕРЅРµРЅС‚С‹ РґР»СЏ РІРІРѕРґР° С‚РµРєСЃС‚Р°.
+- <img align=top src=https://cloud.githubusercontent.com/assets/1113915/23470109/9b7f01a0-feb6-11e6-8e6b-4b6915bc5214.png>  [UXTextField](UXTextField) - РїРѕР»Рµ РІРІРѕРґР°.
+- <img src="https://cloud.githubusercontent.com/assets/1113915/22550060/51eff8da-e95f-11e6-938b-ea2deb34aa2b.png" align="top" /> [UXListView](UXListView) - СЃРїРёСЃРѕРє.
 

@@ -10,7 +10,7 @@
 F.A.Q.
 =====
 
-- [IDE, Среда](IDE,-Среда)
+- [IDE, Среда](faq/IDE)
 - [Переход с DevelStudio](Переход-с-DevelStudio)
 - [Переход с GameMaker](Переход-с-GameMaker)
 - [Язык PHP](Язык-PHP)

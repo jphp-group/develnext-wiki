@@ -13,7 +13,7 @@ F.A.Q.
 - [IDE, Среда](faq/IDE)
 - [Переход с DevelStudio](faq/DevelNext-Migration)
 - [Переход с GameMaker](faq/GameMaker-Migration)
-- [Язык PHP](Язык-PHP)
+- [Язык PHP](faq/PHP-Language)
 - [Файловая система](Файловая-система)
 - [Дата и время](Дата-и-время)
 - [UI, Дизайн](UI,-Дизайн)

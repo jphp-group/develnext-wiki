@@ -14,10 +14,34 @@ use std;
 
 #### Статичные методы
 
+- `fs ::`[`separator()`](#separator)
+- `fs ::`[`pathSeparator()`](#pathseparator)
+- `fs ::`[`valid()`](#valid)
+- `fs ::`[`abs()`](#abs)
+- `fs ::`[`name()`](#name)
+- `fs ::`[`nameNoExt()`](#namenoext)
+- `fs ::`[`pathNoExt()`](#pathnoext)
+- `fs ::`[`ext()`](#ext)
+- `fs ::`[`hasExt()`](#hasext)
+- `fs ::`[`parent()`](#parent)
+- `fs ::`[`ensureParent()`](#ensureparent)
+- `fs ::`[`normalize()`](#normalize)
+- `fs ::`[`exists()`](#exists)
 - `fs ::`[`isFile()`](#isfile)
 - `fs ::`[`isDir()`](#isdir)
+- `fs ::`[`isHidden()`](#ishidden)
 - `fs ::`[`size()`](#size)
 - `fs ::`[`time()`](#time)
+- `fs ::`[`makeDir()`](#makedir)
+- `fs ::`[`makeFile()`](#makefile)
+- `fs ::`[`delete()`](#delete)
+- `fs ::`[`clean()`](#clean)
+- `fs ::`[`scan()`](#scan)
+- `fs ::`[`hash()`](#hash)
+- `fs ::`[`copy()`](#copy)
+- `fs ::`[`move()`](#move)
+- `fs ::`[`rename()`](#rename)
+- `fs ::`[`get()`](#get)
 
 ---
 

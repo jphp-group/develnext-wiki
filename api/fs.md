@@ -14,34 +14,34 @@ use std;
 
 #### Статичные методы
 
-- `fs ::`[`separator()`](#separator)
-- `fs ::`[`pathSeparator()`](#pathseparator)
-- `fs ::`[`valid()`](#valid)
-- `fs ::`[`abs()`](#abs)
-- `fs ::`[`name()`](#name)
-- `fs ::`[`nameNoExt()`](#namenoext)
-- `fs ::`[`pathNoExt()`](#pathnoext)
-- `fs ::`[`ext()`](#ext)
-- `fs ::`[`hasExt()`](#hasext)
-- `fs ::`[`parent()`](#parent)
-- `fs ::`[`ensureParent()`](#ensureparent)
-- `fs ::`[`normalize()`](#normalize)
-- `fs ::`[`exists()`](#exists)
-- `fs ::`[`isFile()`](#isfile)
-- `fs ::`[`isDir()`](#isdir)
-- `fs ::`[`isHidden()`](#ishidden)
-- `fs ::`[`size()`](#size)
-- `fs ::`[`time()`](#time)
-- `fs ::`[`makeDir()`](#makedir)
-- `fs ::`[`makeFile()`](#makefile)
-- `fs ::`[`delete()`](#delete)
-- `fs ::`[`clean()`](#clean)
-- `fs ::`[`scan()`](#scan)
-- `fs ::`[`hash()`](#hash)
-- `fs ::`[`copy()`](#copy)
-- `fs ::`[`move()`](#move)
-- `fs ::`[`rename()`](#rename)
-- `fs ::`[`get()`](#get)
+- `fs ::`[`separator()`](#separator) - _возвращает резделитель для имен файлов_
+- `fs ::`[`pathSeparator()`](#pathseparator) - _возвращает разделитель файловых путей_
+- `fs ::`[`valid()`](#valid) - _валидно ли имя файла для ОС_
+- `fs ::`[`abs()`](#abs) - _абсолютный путь к файлу/папке_
+- `fs ::`[`name()`](#name) - _имя файла/папки от полного пути_
+- `fs ::`[`nameNoExt()`](#namenoext) - _имя файла без расширения от полного пути_
+- `fs ::`[`pathNoExt()`](#pathnoext) - _полный путь без расширения_
+- `fs ::`[`ext()`](#ext) - _расширение файла_
+- `fs ::`[`hasExt()`](#hasext) - _содержит ли расширение файла_
+- `fs ::`[`parent()`](#parent) - _возвращает родительский путь на уровень выше_
+- `fs ::`[`ensureParent()`](#ensureparent) - _создает папку для пути, если ее еще нет_
+- `fs ::`[`normalize()`](#normalize) - _нормализует внешний вид пути для текущей ОС_
+- `fs ::`[`exists()`](#exists) - _существует ли файл или папка_
+- `fs ::`[`isFile()`](#isfile) - _путь является ли файлом_
+- `fs ::`[`isDir()`](#isdir) - _путь является ли папкой_
+- `fs ::`[`isHidden()`](#ishidden) - _скрыт(а) ли файл/папка_
+- `fs ::`[`size()`](#size) - _размер файла в байтах_
+- `fs ::`[`time()`](#time) - _последнее время изменения файла/папки в миллисекундах (unixstamp)_
+- `fs ::`[`makeDir()`](#makedir) - _создать папку_
+- `fs ::`[`makeFile()`](#makefile) - _создать пустой файл_
+- `fs ::`[`delete()`](#delete) - _удалить файл или пустую папку_
+- `fs ::`[`clean()`](#clean) - _очистить папку от всех файлов_
+- `fs ::`[`scan()`](#scan) - _просканировать папку_
+- `fs ::`[`hash()`](#hash) - _посчтитать хэш файла (MD5, SHA1 и т.д.)_
+- `fs ::`[`copy()`](#copy) - _скопировать из потока или файла в другой файл_
+- `fs ::`[`move()`](#move) - _переместить файл_
+- `fs ::`[`rename()`](#rename) - _переименовать файл_
+- `fs ::`[`get()`](#get) - _вернуть содержимое файла в виде строки_
 
 ---
 

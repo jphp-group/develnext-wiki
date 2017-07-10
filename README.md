@@ -14,7 +14,7 @@ echo "Welcome to $DevelNext";
 
 ---
 
-### Редактирование документации
+# Редактирование документации
 
 Вся документация написана с помощью Markdown языка разметки, все исходники документации хранятся в репозитории [https://github.com/jphp-compiler/develnext-wiki](https://github.com/jphp-compiler/develnext-wiki). 
 

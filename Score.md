@@ -16,6 +16,10 @@ use action\Score;
 - `Score ::`[`set()`](#set)
 - `Score ::`[`get()`](#get)
 - `Score ::`[`inc()`](#inc)
+- `Score ::`[`on()`](#on)
+- `Score ::`[`off()`](#off)
+- `Score ::`[`bind()`](#bind)
+- `Score ::`[`trigger()`](#trigger)
 
 ---
 
@@ -55,4 +59,34 @@ Score::inc('money'); // добавить 1
 Score::inc('money', 100); // добавить 100
 Score::inc('money', -1); // уменьшить на 1
 Score::inc('money', -100); // уменьшить на 100
+```
+
+---
+
+### `on()`
+```php
+Score::on(string $eventType, callable $handler, $group = 'general')
+```
+Метод позволяет подписаться на события изменения счета с помощью хендлера `$handler`. Доступно 2 вида событий `$eventType`:
+- `beforeChange` - перед изменением счета, когда еще сохраняется старое значение счета.
+- `afterChange` - после изменения счета, когда значение счета поменялось на новое.
+
+```php
+Scoree::on('beforeChange', function ($name, $oldValue, $newValue) {
+     // $name - название счета
+     // $oldValue - старое значение счета
+     // $newValue - новое значение счета
+});
+```
+
+Возможно прервать изменение счета если вернуть из функции `beforeChange` значение `false` (строго boolean типа).
+
+```
+// Максимальное значение всех счетов ограничили до 30 ...
+Scoree::on('beforeChange', function ($name, $oldValue, $newValue) {
+     if ($newValue > 30) {
+        Score::set($name, 30);
+        return false;
+     }
+});
 ```

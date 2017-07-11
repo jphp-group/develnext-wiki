@@ -67,7 +67,7 @@ Score::inc('money', -100); // уменьшить на 100
 ```php
 Score::on(string $eventType, callable $handler, $group = 'general')
 ```
-> *!* Метод доступен начиная с DevelNext 16.6.0. 
+> **Метод доступен начиная с DevelNext 16.6.0.**
 
 
 Метод позволяет подписаться на события изменения счета с помощью хендлера `$handler`. Доступно 2 вида событий `$eventType`:
@@ -84,7 +84,7 @@ Scoree::on('beforeChange', function ($name, $oldValue, $newValue) {
 
 Возможно прервать изменение счета если вернуть из функции `beforeChange` значение `false` (строго boolean типа).
 
-```
+```php
 // Максимальное значение всех счетов ограничили до 30 ...
 Scoree::on('beforeChange', function ($name, $oldValue, $newValue) {
      if ($newValue > 30) {

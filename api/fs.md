@@ -103,6 +103,26 @@ alert($time->toString('dd-MM-yyyy HH:mm:ss'));
 ```php
 fs::scan(string $path, callable|array $filter = null, int $maxDepth = 0, $subIsFirst = false): array
 ```
-> (!) Внимание, фильтр в виде массива добавлен только в версии DN 1.6.1 и выше.
+> (!) Внимание, фильтр в виде массива и результат добавлен только в версии DN 1.6.1 и выше.
 
 Метод сканирует папку на файлы и папки с помощью фильтра (функция или массив). 
+
+```php
+fs::scan('path/to/dir', function (File $file, $depth) {
+    echo $file, "\n"; // нашли файл/папку.
+});
+```
+
+Пример для версии DN 1.6.1+:
+```php
+$files = fs::scan('path/to/dir'); // найти и вернуть все файлы/папки
+
+// найти файлы только определенных расширений и вернуть.
+$files = fs::scan('path/to/dir', ['extensions' => ['jpg', 'png', 'gif', 'jpeg'], 'excludeDirs' => true]); 
+
+// найти все папки и вернуть
+$files = fs::scan('path/to/dir', ['excludeFiles' => true]);
+
+// найти все файлы, размер которых больше 10 мб и меньше 100 мб.
+$files = fs::scan('path/to/dir', ['minSize' => 1024 * 1024 * 10, 'maxSize' => 1024 * 1024 * 100]);
+```

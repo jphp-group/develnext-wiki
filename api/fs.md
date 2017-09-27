@@ -96,3 +96,13 @@ $time = new Time($time);
 // форматирование даты
 alert($time->toString('dd-MM-yyyy HH:mm:ss'));
 ```
+
+---
+
+### `scan()`
+```php
+fs::scan(string $path, callable|array $filter = null, int $maxDepth = 0, $subIsFirst = false): array
+```
+> (!) Внимание, фильтр в виде массива добавлен только в версии DN 1.6.1 и выше.
+
+Метод сканирует папку на файлы и папки с помощью фильтра (функция или массив). 

@@ -2,6 +2,7 @@
 
 - **class** `UXClipboard` (`php\gui\UXClipboard`)
 - **package** `gui`
+- **tags** `clipboard`, `cut`, `paste`, `copy`, `буфер`, `буффер`, `буфер обмена`, `копировать`, `вставить`, `вырезать`
 
 ```php
 use php\gui\UXClipboard;

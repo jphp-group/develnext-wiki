@@ -147,3 +147,9 @@ fs::copy($stream, 'file.txt'); // копирует из потока в файл
 ```
 
 Функция возвращает количество скопированных байт данных.
+
+### `get()`
+```php
+fs::get(string $source, string $charset = null, string $mode = 'r'): string
+```
+Метод возвращает контент файла или стрима `$source`, метод похож на функцию `file_get_contents()`.

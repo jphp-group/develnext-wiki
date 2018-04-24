@@ -127,6 +127,8 @@ $files = fs::scan('path/to/dir', ['excludeFiles' => true]);
 $files = fs::scan('path/to/dir', ['minSize' => 1024 * 1024 * 10, 'maxSize' => 1024 * 1024 * 100]);
 ```
 
+---
+
 ### `copy()`
 ```php
 fs::copy(string|Stream $source, string|Stream $dest, callable $onProgress = null, int $bufferSize = 8096): int
@@ -147,6 +149,8 @@ fs::copy($stream, 'file.txt'); // копирует из потока в файл
 ```
 
 Функция возвращает количество скопированных байт данных.
+
+---
 
 ### `get()`
 ```php

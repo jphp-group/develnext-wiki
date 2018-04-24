@@ -157,3 +157,11 @@ fs::copy($stream, 'file.txt'); // копирует из потока в файл
 fs::get(string $source, string $charset = null, string $mode = 'r'): string
 ```
 Метод возвращает контент файла или стрима `$source`, метод похож на функцию `file_get_contents()`.
+
+---
+
+### `ensureParent()`
+```php
+fs::ensureParent(string $filePath): bool
+```
+Метод создает папку файла если ее еще нет.
